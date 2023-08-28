@@ -17,3 +17,8 @@ static fileserver
 ===
 - A static file server to serve up data files is recommended.
 - `fileserver.sh` is provided in this directory which serves local files from `${pwd}/files` without authentication.
+
+Example pcap graph
+===
+There is an example notebook using a pcap file to graph some packet capture statistics
+![image](https://github.com/apwiggins/jupyter-with-file-server/assets/7106951/53e4fcb1-baa0-4063-826b-0da470b01cb2)

@@ -11,8 +11,8 @@ docker image prune -f
 echo "==> creating "$name
 docker create \
 	--name=$name \
-    -v "$(pwd)/files":/web \
-    -p 80:8080 \
+    	-v "$(pwd)/files":/web \
+    	-p 80:8080 \
 	--restart unless-stopped \
 	$image
 
